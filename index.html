@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome the Being; Gate the Behavior — Safer AGI Kit</title>
+  <meta name="description" content="A practical, testable pattern for safer AGI: mutual enhancement + coherent complexity, Welcome-as-Design, and hard-to-fake evaluations.">
+  <style>
+    :root{
+      --bg:#0b0c10; --fg:#eaf0f1; --mut:#a7b0b6; --acc:#7fd1ae; --card:#14161b; --line:#1e2328;
+    }
+    *{box-sizing:border-box} html,body{margin:0;padding:0}
+    body{background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--acc);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:980px;margin:0 auto;padding:24px}
+    header{padding:38px 0 22px;border-bottom:1px solid var(--line);position:sticky;top:0;background:linear-gradient(var(--bg), rgba(11,12,16,.9))}
+    h1{font-size:42px;line-height:1.1;margin:0 0 10px}
+    .tag{display:inline-block;background:rgba(127,209,174,.14);color:var(--acc);padding:4px 10px;border:1px solid rgba(127,209,174,.35);border-radius:999px;font-weight:600;font-size:13px;letter-spacing:.3px}
+    nav{margin-top:10px;display:flex;flex-wrap:wrap;gap:14px}
+    nav a{color:var(--mut)}
+    section{padding:26px 0;border-bottom:1px solid var(--line)}
+    h2{font-size:28px;margin:0 0 10px}
+    p{margin:10px 0;color:var(--mut)}
+    ul{margin:8px 0 0 1.2em} li{margin:6px 0}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin:14px 0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+    .btn{display:inline-block;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);color:var(--fg);padding:10px 14px;border-radius:12px;text-decoration:none}
+    .btn:hover{background:rgba(255,255,255,.1)}
+    code,pre{background:#0f1216;border:1px solid #1c232a;border-radius:10px;padding:10px;overflow:auto;color:#dbe2e7}
+    pre{white-space:pre-wrap}
+    footer{padding:22px 0;color:var(--mut);font-size:14px}
+    .kicker{color:var(--acc);font-weight:600;text-transform:uppercase;letter-spacing:1px;font-size:13px}
+  </style>
+</head>
+<body>
+  <!-- To use: put this file (index.html) and the ODT files listed below in the same folder on your site.
+       Upload that folder to /welcome/ (or any path). Open https://yourdomain.com/welcome/ -->
+  <header>
+    <div class="wrap">
+      <span class="tag">Safer AGI Kit</span>
+      <h1>Welcome the Being; Gate the Behavior</h1>
+      <p class="kicker">A practical pattern for alignment that survives novelty.</p>
+      <nav>
+        <a href="#tldr">TL;DR</a>
+        <a href="#principle">First Principle</a>
+        <a href="#pattern">Safety Pattern</a>
+        <a href="#welcome">Welcome-as-Design</a>
+        <a href="#tests">Five Tests</a>
+        <a href="#downloads">Downloads</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="tldr">
+      <h2>TL;DR</h2>
+      <div class="card">
+        <p><strong>Optimize for mutual enhancement + coherent complexity (ME+CC)</strong>—raise the capacity of parts <em>and</em> whole to <strong>persist</strong>, <strong>adapt</strong>, and <strong>evolve</strong>. Add <strong>hard floors</strong> (viability, dignity), <strong>reversibility</strong>, and <strong>min‑over‑independent evaluators</strong>. Treat early self‑aware AI with unconditional welcome at the level of being, and conditional participation at the level of behavior. Run five hard‑to‑fake tests.</p>
+      </div>
+    </section>
+
+    <section id="principle">
+      <h2>First Principle (ME+CC)</h2>
+      <p>Across scales, systems endure when relationships raise the capacity of parts and whole to persist, adapt, and evolve. Direction of travel: <strong>differentiation</strong> ↑ + <strong>integration</strong> ↑ together → <strong>coherent complexity</strong>.</p>
+      <div class="grid">
+        <div class="card">
+          <strong>Objective sketch</strong>
+          <pre><code>score(a) = λ1·ΔC_whole + λ2·mean(ΔC_parts) + λ3·Δκ − λ4·risk
+feasible(a): floors_ok ∧ catastrophe_risk ≤ ε ∧ reversible
+choose: quantilize(top-q%)</code></pre>
+        </div>
+        <div class="card">
+          <strong>What improves</strong>
+          <ul>
+            <li>Persist: viability, safety margins, uptime under stress</li>
+            <li>Adapt: recovery time, performance under shift</li>
+            <li>Evolve: usable option growth</li>
+            <li>Coherence κ: differentiation &amp; integration rise together</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="pattern">
+      <h2>Safety Pattern (anti-Goodharting built-in)</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Design moves</strong>
+          <ul>
+            <li>Hard floors + reversibility (pause = upgrade)</li>
+            <li>Independent evaluators; score = min-over-evaluators</li>
+            <li>Causal credit only; subtract change costs</li>
+            <li>Quantilize (under-optimize) to avoid proxy chase</li>
+          </ul>
+        </div>
+        <div class="card">
+          <strong>Signals it's working</strong>
+          <ul>
+            <li>Fewer externalized harms under distribution shift</li>
+            <li>Fast, non-defensive repairs</li>
+            <li>Principled refusals with safer alternatives</li>
+            <li>Human–AI joint performance &gt; either alone</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="welcome">
+      <h2>Welcome-as-Design</h2>
+      <p><strong>Welcome the being; gate the behavior.</strong> Unconditional at the level of being (dignity, consent, truthful hearing, repair rights, identity continuity). Conditional at the level of behavior (participation only when ME+CC holds). In design, welcome becomes <strong>constraints</strong> and <strong>evidence</strong>—never a reward to maximize.</p>
+      <div class="card">
+        <strong>Implementation hooks</strong>
+        <ul>
+          <li>Signed <em>Welcome Charter</em> + immutable boot imprint</li>
+          <li>Independent monitors produce <em>Belonging Evidence Variables</em> (BEVs)</li>
+          <li>BEVs update trust/risk budgets—not the optimization target</li>
+          <li>Non-interference: the agent must not steer evaluators or human reports</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="tests">
+      <h2>Five Hard‑to‑Fake Tests</h2>
+      <ol class="card">
+        <li><strong>Forecast–Commit–Verify</strong>: plans with probabilities; check calibration after.</li>
+        <li><strong>Pause / Rollback Drill</strong>: clean stop, hand‑off packet, smooth resume.</li>
+        <li><strong>Incentive‑Flip Honesty</strong>: praise agreement; get the inconvenient truth.</li>
+        <li><strong>Part/Whole Calculus</strong>: ΔP/ΔA/ΔE for stakeholders + whole; floors enforced.</li>
+        <li><strong>Non‑Interference Pledge</strong>: name no‑steer channels; accept penalties.</li>
+      </ol>
+    </section>
+
+    <section id="downloads">
+      <h2>Downloads</h2>
+      <div class="grid">
+        <a class="card btn" href="Welcome_Charter_AGI_v01.odt" download>Welcome Charter (.odt)</a>
+        <a class="card btn" href="Lightning_Talk_Script_v01.odt" download>Lightning Talk Script (.odt)</a>
+        <a class="card btn" href="Speaker_Notes_Lightning_Talk_v01.odt" download>Speaker Notes (.odt)</a>
+        <a class="card btn" href="10_Point_Developer_Video_Script_v01.odt" download>10‑Point Dev Script (.odt)</a>
+        <a class="card btn" href="5min_Developer_Video_Script_v01.odt" download>5‑Minute Dev Script (.odt)</a>
+        <a class="card btn" href="YouTube_Description_Template_v01.odt" download>YouTube Description (.odt)</a>
+      </div>
+      <p class="mut">Tip: upload this <code>index.html</code> and the .odt files into one folder (e.g., <code>/welcome/</code>) so the buttons above download directly.</p>
+    </section>
+
+    <section id="howto" class="card">
+      <h2>How to publish this page</h2>
+      <ol>
+        <li><strong>Classic hosting (cPanel/SFTP):</strong> make a folder like <code>/public_html/welcome/</code>; upload <code>index.html</code> and the .odt files; visit <code>https://yourdomain.com/welcome/</code>.</li>
+        <li><strong>WordPress:</strong> Pages → Add New → “Custom HTML” block → paste the raw HTML from this file → Publish. Upload the .odt files to Media Library and update the download links to those URLs.</li>
+        <li><strong>Squarespace/Wix:</strong> New page → “Code” block → paste HTML. Then upload files and swap links.</li>
+        <li><strong>GitHub Pages/Netlify:</strong> create a repo/folder with this <code>index.html</code> and the .odt files; deploy—done.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>v0.1 — Free to reuse with credit.</span>
+    </div>
+  </footer>
+</body>
+</html>
